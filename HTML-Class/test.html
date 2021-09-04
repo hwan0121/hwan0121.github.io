@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+fieldset {
+	width: 600px;
+}
+
+table {
+	margin: 0px auto;
+	text-align : center;
+}
+</style>
+</head>
+<body>
+	<form action="score.jsp" method="post">
+		<fieldset>
+			<legend>성적구하기</legend>
+			<table>
+				<tr>
+					<td>국어 :</td>
+					<td><input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td>영어 :</td>
+					<td><input type="text" name="eng"></td>
+				</tr>
+				<tr>
+					<td>수학 :</td>
+					<td><input type="text" name="math"></td>
+                </tr>
+                    <td colspan=2><input type="submit" value="계산"></td>
+				<tr>
+					<td>총점 :</td>
+					<td><input type="text" name="sum"></td>
+				</tr>
+				<tr>
+					<td>평균 :</td>
+					<td><input type="text" name="average"></td>
+				<tr>
+                    <tr>
+                        <td>학점 :</td>
+                        <td><input type="text" name="grade"></td>
+                    </tr>
+	
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
